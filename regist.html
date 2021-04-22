@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookbased | Regist</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+  </head>
+  <body>
+    <!-- header menu -->
+    <div class="ui menu">
+      <div class="ui container">
+        <a href="./index.html" class="header item">Bookbased</a>
+        <a href="./index.html" class="item">Home</a>
+      </div>
+    </div>
+    <!-- genre -->
+    <div class="ui container">
+      <div class="ui form">
+        <div class="grouped fields">
+          <label>Category</label>
+          <div class="field">
+            <div class="ui selection dropdown">
+              <input type="hidden" name="gender" />
+              <i class="dropdown icon"></i>
+              <div class="default text">Genre</div>
+              <div class="menu">
+                <div class="item" data-value="2">Comic</div>
+                <div class="item" data-value="1">Movie</div>
+                <div class="item" data-value="0">Novel</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- category -->
+    <div class="ui container">
+      <div class="ui form">
+        <div class="grouped fields">
+          <label>Category</label>
+          <div class="field">
+            <div class="ui selection dropdown">
+              <input type="hidden" name="gender" />
+              <i class="dropdown icon"></i>
+              <div class="default text">Category</div>
+              <div class="menu">
+                <div class="item" data-value="2">Most recommended</div>
+                <div class="item" data-value="1">Drama</div>
+                <div class="item" data-value="0">Comedy</div>
+                <div class="item" data-value="0">History</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script>
+      $('.ui.dropdown').dropdown();
+    </script>
+  </body>
+</html>
