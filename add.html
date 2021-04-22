@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bookbased | Regist</title>
+    <title>Bookbased | Add</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
@@ -15,14 +15,14 @@
     <div class="ui menu">
       <div class="ui container">
         <a href="./index.html" class="header item">Bookbased</a>
-        <a href="./index.html" class="item">Home</a>
+        <span href="./index.html" class="item">Add</span>
       </div>
     </div>
     <!-- genre -->
     <div class="ui container">
       <div class="ui form">
         <div class="grouped fields">
-          <label>Category</label>
+          <label>Genre</label>
           <div class="field">
             <div class="ui selection dropdown">
               <input type="hidden" name="gender" />
@@ -58,6 +58,60 @@
           </div>
         </div>
       </div>
+    </div>
+    <!-- search -->
+    <div class="ui container">
+      <h2 class="header">Item Name</h2>
+      <div class="ui search">
+        <div class="ui icon input">
+          <input class="prompt" type="text" placeholder="Common passwords..." />
+          <i class="search icon"></i>
+        </div>
+        <div class="results"></div>
+      </div>
+    </div>
+    <!-- result -->
+    <div class="ui container">
+      <h2 class="header divided">Result</h2>
+      <div class="ui items">
+        <div class="item">
+          <div class="ui tiny image">
+            <img src="https://picsum.photos/200" />
+          </div>
+          <div class="middle aligned content">
+            <div class="header">Content A</div>
+            <div class="extra">
+              <div class="ui right floated button">Add</div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="ui tiny image">
+            <img src="https://picsum.photos/200" />
+          </div>
+          <div class="middle aligned content">
+            <div class="header">Content A</div>
+            <div class="extra">
+              <div class="ui right floated button">Add</div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="ui tiny image">
+            <img src="https://picsum.photos/200" />
+          </div>
+          <div class="middle aligned content">
+            <div class="header">Content A</div>
+            <div class="extra">
+              <div class="ui right floated button">Add</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- create -->
+    <div class="ui container center aligned">
+      <a href="./create.html" class="ui button">Create New Item</a>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
